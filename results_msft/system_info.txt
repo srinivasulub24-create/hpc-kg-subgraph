@@ -1,0 +1,16 @@
+date: Thu Oct  8 06:25:22 UTC 2026
+--- CPU ---
+CPU(s):                                  8
+Model name:                              Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+Thread(s) per core:                      2
+Core(s) per socket:                      4
+L2 cache:                                1 MiB (4 instances)
+L3 cache:                                6 MiB (1 instance)
+--- RAM ---
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       542Mi       3.0Gi       3.5Mi       381Mi       3.2Gi
+Swap:          1.0Gi          0B       1.0Gi
+--- compiler ---
+g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+--- GPU ---
+no NVIDIA GPU / driver visible

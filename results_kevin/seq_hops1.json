@@ -1,0 +1,14 @@
+{
+  "impl": "sequential_cpp", "hops": 1, "queries": 6000, "repeat": 3,
+  "graph": {"nodes": 1272, "directed_edges_csr": 48782},
+  "setup_s": {"load": 0.0055, "csr_build": 0.0010},
+  "phase_s": {"bfs_khop": 0.0061, "extract_induced": 0.2236, "finalize_sort": 0.4818},
+  "phase_pct": {"bfs_khop": 0.9, "extract_induced": 31.4, "finalize_sort": 67.7},
+  "query_total_s": 0.7119,
+  "latency_ms": {"mean": 0.1186, "p50": 0.0690, "p95": 0.3634, "p99": 1.0943},
+  "throughput_qps": 8427.8,
+  "edges_scanned": 76467147, "MTEPS": 107.4,
+  "avg_subgraph": {"nodes": 103.0, "edges": 1689.4},
+  "peak_rss_mb": 4.8,
+  "checksum": 8929780922697251004
+}
