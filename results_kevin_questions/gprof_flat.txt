@@ -1,0 +1,18 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 68.00      0.85     0.85     4885   174.00   174.00  frame_dummy
+ 22.40      1.13     0.28     1780   157.30   526.51  finalize(std::vector<unsigned int, std::allocator<unsigned int> >&, std::vector<std::pair<unsigned int, unsigned int>, std::allocator<std::pair<unsigned int, unsigned int> > >&)
+  6.40      1.21     0.08     7547    10.60    10.60  extract_induced(CSR const&, std::vector<unsigned int, std::allocator<unsigned int> > const&, std::vector<unsigned int, std::allocator<unsigned int> > const&, unsigned int, std::vector<std::pair<unsigned int, unsigned int>, std::allocator<std::pair<unsigned int, unsigned int> > >&, unsigned long&)
+  2.40      1.24     0.03     1780    16.85    16.85  bfs_khop(CSR const&, std::vector<unsigned int, std::allocator<unsigned int> > const&, int, std::vector<unsigned int, std::allocator<unsigned int> >&, unsigned int, std::vector<unsigned int, std::allocator<unsigned int> >&, unsigned long&)
+  0.80      1.25     0.01                             _init
+  0.00      1.25     0.00    32352     0.00     0.00  void std::vector<unsigned int, std::allocator<unsigned int> >::_M_realloc_append<unsigned int const&>(unsigned int const&)
+  0.00      1.25     0.00        4     0.00     0.00  std::_Vector_base<unsigned int, std::allocator<unsigned int> >::~_Vector_base()
+  0.00      1.25     0.00        4     0.00     0.00  std::_Vector_base<unsigned long, std::allocator<unsigned long> >::~_Vector_base()
+  0.00      1.25     0.00        3     0.00     0.00  std::_Vector_base<std::pair<unsigned int, unsigned int>, std::allocator<std::pair<unsigned int, unsigned int> > >::~_Vector_base()
+  0.00      1.25     0.00        2     0.00     0.00  int __gnu_cxx::__stoa<long, int, char, int>(long (*)(char const*, char**, int), char const*, char const*, unsigned long*, int)
+  0.00      1.25     0.00        1     0.00     0.00  std::_Vector_base<std::array<unsigned long, 3ul>, std::allocator<std::array<unsigned long, 3ul> > >::~_Vector_base()
+  0.00      1.25     0.00        1     0.00     0.00  std::_Vector_base<double, std::allocator<double> >::~_Vector_base()
+  0.00      1.25     0.00        1     0.00     0.00  std::vector<std::vector<unsigned int, std::allocator<unsigned int> >, std::allocator<std::vector<unsigned int, std::allocator<unsigned int> > > >::~vector()

@@ -1,14 +1,14 @@
 {
   "impl": "sequential_cpp", "hops": 2, "queries": 6000, "repeat": 3,
-  "graph": {"nodes": 1272, "directed_edges_csr": 48782},
-  "setup_s": {"load": 0.0035, "csr_build": 0.0007},
-  "phase_s": {"bfs_khop": 0.1672, "extract_induced": 0.6438, "finalize_sort": 6.8444},
-  "phase_pct": {"bfs_khop": 2.2, "extract_induced": 8.4, "finalize_sort": 89.4},
-  "query_total_s": 7.6559,
-  "latency_ms": {"mean": 1.2759, "p50": 1.2102, "p95": 1.7803, "p99": 2.5569},
-  "throughput_qps": 783.7,
-  "edges_scanned": 367803945, "MTEPS": 48.0,
-  "avg_subgraph": {"nodes": 1252.0, "edges": 24282.3},
-  "peak_rss_mb": 4.8,
-  "checksum": 3763181622844320855
+  "graph": {"nodes": 1013, "directed_edges_csr": 34552},
+  "setup_s": {"load": 0.0028, "csr_build": 0.0005},
+  "phase_s": {"bfs_khop": 0.1378, "extract_induced": 0.5193, "finalize_sort": 4.4920},
+  "phase_pct": {"bfs_khop": 2.7, "extract_induced": 10.1, "finalize_sort": 87.2},
+  "query_total_s": 5.1498,
+  "latency_ms": {"mean": 0.8582, "p50": 0.8096, "p95": 1.1190, "p99": 1.5163},
+  "throughput_qps": 1165.1,
+  "edges_scanned": 254941869, "MTEPS": 49.5,
+  "avg_subgraph": {"nodes": 962.7, "edges": 16793.3},
+  "peak_rss_mb": 4.6,
+  "checksum": 1227182284814185941
 }

@@ -1,5 +1,6 @@
-data/*.txt
+data/
+__pycache__/
 gmon.out
 subgraph_seq
 subgraph_seq_pg
-__pycache__/
+results_kevin2_saved/
